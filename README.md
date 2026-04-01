@@ -1,21 +1,30 @@
-# ATM Simulation WebApp (Flask)
+# ATM Web App
 
-A simple ATM simulation web application built with Flask.  
-It demonstrates core banking operations such as login, registration, deposit, withdrawal, and transfer.
+A Flask-based ATM web application with registration, login, balance inquiry, withdrawal, deposit, transfer, and mini-statement features.
 
----
+## Setup
 
-## 🚀 Features
-- User authentication (Login/Register)
-- Deposit and withdrawal functionality
-- Transfer between accounts
-- Session management
-- Error handling and redirects
+1. Copy `.env.example` to `.env`.
+2. Update `.env` with your MySQL credentials.
+3. Create and activate your Python virtual environment.
+4. Install dependencies:
 
----
+```powershell
+pip install -r requirements.txt
+```
 
-## 🛠️ Setup Instructions
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/Sashank888/atm-webapp.git
-   cd atm-webapp
+5. Run the app:
+
+```powershell
+python app.py
+```
+
+6. Open in browser:
+
+- Local: `http://127.0.0.1:5000`
+- Network: `http://<your-ip>:5000` if running with `host="0.0.0.0"`
+
+## Notes
+
+- Do not commit `.env`, it contains sensitive credentials.
+- The `.gitignore` file is already configured to exclude `.env` and `.venv`.
