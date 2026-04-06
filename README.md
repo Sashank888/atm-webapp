@@ -23,21 +23,21 @@ A Flask-based ATM simulation web application that allows users to register, log 
 
 Follow these steps to run the project locally:
 
-1. "Clone the repository"
+1. "Clone the repository"-
    git clone https://github.com/Sashank888/atm-webapp.git
    cd atm-webapp
 
-2. "Create and activate a virtual environment"
+2. "Create and activate a virtual environment"-
     python -m venv venv
     venv\Scripts\activate   # On Windows
     source venv/bin/activate # On macOS/Linux
 
-3. "Install dependencies"
+3. "Install dependencies"-
     pip install -r requirements.txt
 
-4. "Run the application"
+4. "Run the application"-
     python app.py
 
-5. "Access in browser"
+5. "Access in browser"-
     http://127.0.0.1:5000
 
